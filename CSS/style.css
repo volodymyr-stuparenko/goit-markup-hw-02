@@ -1,0 +1,112 @@
+/* Особливі  елементи */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: 4%;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 2%;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+
+/* Page Header */
+
+/* Page Nav */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #4d5ae5;
+    text-transform: uppercase;
+}
+
+.logo-studio {
+    color: #2e2f42;
+    text-transform: uppercase;
+
+}
+
+.features {
+    font-family: "Roboto", sans-serif;
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.features .feat-link:hover,
+.features .feat-link:focus {
+    color: #404bbf;
+}
+
+/* Contacts */
+.contacts {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    font-style: normal;
+}
+
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+    color: #404bbf;
+}
+
+/* Page main */
+
+/* Hero section */
+.button-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+}
+
+.button-text:hover,
+.button-text:focus {
+    background: #404bbf;
+}
+
+/* Point list */
+
+
