@@ -99,7 +99,7 @@ p {
 
 .button-text:hover,
 .button-text:focus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 /* ===============/Hero section=============== */
 
@@ -200,7 +200,7 @@ p {
 
 .text-footer {
     font-size: 16px;
-    line-height: 1.17;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
