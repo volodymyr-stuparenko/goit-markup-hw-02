@@ -1,11 +1,7 @@
-/* Особливі  елементи */
+/* ===============Особливі селектори=============== */
 body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
     color: #434455;
 }
 
@@ -15,61 +11,71 @@ ul {
 
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
 }
 
 p {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 14px;
+    line-height: 1.5;
     letter-spacing: 4%;
+    color: #434455;
 }
 
 h1 {
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 2%;
 }
 
 h2 {
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 2%;
 }
 
 h3 {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 2%;
+    line-height: 1.2;
+    color: #2e2f42;
 }
 
-/* Page Header */
+/* ===============Page Header=============== */
 
-/* Page Nav */
 .logo {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
     color: #4d5ae5;
     text-transform: uppercase;
 }
 
 .logo-studio {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
     color: #2e2f42;
     text-transform: uppercase;
 
 }
 
 .features {
-    font-family: "Roboto", sans-serif;
-    color: #2e2f42;
-    font-size: 16px;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .features .feat-link:hover,
@@ -77,9 +83,7 @@ h3 {
     color: #404bbf;
 }
 
-/* Contacts */
 .contacts {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #434455;
@@ -90,15 +94,15 @@ h3 {
 .contacts .contacts-link:focus {
     color: #404bbf;
 }
+/* ===============/Page Header=============== */
 
-/* Page main */
+/* ===============Page main=============== */
 
-/* Hero section */
+/* ===============Hero section=============== */
 .button-text {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 4%;
 }
 
@@ -106,7 +110,78 @@ h3 {
 .button-text:focus {
     background: #404bbf;
 }
+/* ===============/Hero section=============== */
 
-/* Point list */
+/* ===============Point-list=============== */
+.point-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
+.point-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
+/* ===============/point-list=============== */
+
+/* ===============Our Team=============== */
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-member {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-skill {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+/* ===============/Our Team=============== */
+
+/* ===============Our Portfolio=============== */
+.port-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.port-product {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.port-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ===============/Our Portfolio=============== */
