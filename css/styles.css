@@ -1,4 +1,4 @@
-/* ===============Особливі селектори=============== */
+/* ===============Special Selectors=============== */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
@@ -20,32 +20,6 @@ button {
 
 p {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 4%;
-    color: #434455;
-}
-
-h1 {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 2%;
-}
-
-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 2%;
-}
-
-h3 {
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 2%;
-    line-height: 1.2;
-    color: #2e2f42;
 }
 
 /* ===============Page Header=============== */
@@ -54,7 +28,7 @@ h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
     text-transform: uppercase;
@@ -63,7 +37,7 @@ h3 {
 .logo-studio {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: #2e2f42;
     text-transform: uppercase;
@@ -86,6 +60,8 @@ h3 {
 .contacts {
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
 }
@@ -99,16 +75,31 @@ h3 {
 /* ===============Page main=============== */
 
 /* ===============Hero section=============== */
+.main-text {
+    background-color: #2e2f42;
+}
+
+.text-title {
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    text-align: center;
+    color: #ffffff;
+}
+
 .button-text {
+    background-color: #4d5ae5;
+    color: #ffffff;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
 }
 
 .button-text:hover,
 .button-text:focus {
-    background: #404bbf;
+    color: #404bbf;
 }
 /* ===============/Hero section=============== */
 
@@ -128,15 +119,24 @@ h3 {
     color: #434455;
 }
 
-/* ===============/point-list=============== */
+/* ===============/Point-list=============== */
 
 /* ===============Our Team=============== */
+.team-works {
+    background-color: #f4f4fd;
+}
+
+.team-item {
+    background-color: #ffffff;
+}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -166,6 +166,7 @@ h3 {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -186,10 +187,20 @@ h3 {
 
 /* ===============/Our Portfolio=============== */
 
+/* ===============/Page Main=============== */
+
 /* ===============Page Footer=============== */
+.page-footer {
+    background-color: #2e2f42;
+}
+
+.logo-studio-foot {
+    color: #f4f4fd;
+}
+
 .text-footer {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
